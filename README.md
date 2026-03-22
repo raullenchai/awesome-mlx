@@ -42,6 +42,7 @@ An awesome list dedicated to the [MLX library](https://github.com/ml-explore/mlx
 - [mlx-local-server](https://github.com/Doriandarko/mlx-local-server): A tiny server to run local inference on MLX model in the style of OpenAI
 - [AutoMLX](https://github.com/wsvn53/AutoMLX): An easy-to-use LLMs inference tool for quickly loading models accelerated by the Apple MLX framework on Mac devices, and providing a simple and compatible API interface for integration with other LLMs tools.
 - [mlx-omni-server](https://github.com/madroidmaq/mlx-omni-server): MLX Omni Server is a local inference server powered by Apple's MLX framework, specifically designed for Apple Silicon (M-series) chips. It implements OpenAI-compatible API endpoints, enabling seamless integration with existing OpenAI SDK clients while leveraging the power of local ML inference.
+- [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX): OpenAI-compatible LLM inference server for Apple Silicon. 2-4x faster than Ollama with full tool calling, reasoning separation, and prompt caching.
 
 ## Demo
 
