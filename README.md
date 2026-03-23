@@ -2,19 +2,15 @@
 
 > A curated list of awesome projects, tools, models, and resources for [Apple MLX](https://github.com/ml-explore/mlx) — the ML framework for Apple Silicon.
 
-## Ecosystem Snapshot
-
-📦 **80+ projects** · ⭐ **75K+ combined stars** · 🐍 Python · 🦅 Swift · 🟨 JS/TS · 🦀 Rust
-Fastest growing categories: Audio/Speech (12 projects), Inference/Serving (12), Training (7)
+**Run AI models on your Mac at full speed.** This list covers everything built on MLX — inference servers, training tools, audio/speech/vision models, Swift packages, and more. Whether you want a ChatGPT-like experience offline or you're building an AI app, start here.
 
 ## Why MLX?
 
-MLX is Apple's open-source ML framework built specifically for Apple Silicon's unified memory architecture. Compared to running models through llama.cpp or PyTorch/MPS:
+MLX is Apple's open-source ML framework designed for Apple Silicon. If you have an M1/M2/M3/M4 Mac:
 
-- **Unified memory** — No CPU↔GPU copies. A 32GB Mac can load a 30GB model.
-- **Lazy evaluation** — Computations are only materialized when needed.
-- **Native Metal acceleration** — Direct GPU access, no CUDA needed.
-- **Growing ecosystem** — 80+ projects, 2000+ optimized models on HuggingFace.
+- **Use all your RAM for models** — Your Mac's memory is shared between CPU and GPU. A 32GB Mac can run a 30GB model — no copying between chips.
+- **Faster than CUDA workarounds** — Native Metal GPU acceleration, not a compatibility layer.
+- **Growing fast** — 80+ projects, 2000+ optimized models on HuggingFace, and active community.
 
 ## Quick Start
 
@@ -22,7 +18,7 @@ MLX is Apple's open-source ML framework built specifically for Apple Silicon's u
 → Install [Klee](https://github.com/signerlabs/Klee) (native app, one click) or [chat-with-mlx](https://github.com/qnguyen3/chat-with-mlx) (web UI)
 
 **"I want an OpenAI-compatible local API server"**
-→ Install [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) (`curl -fsSL .../install.sh | bash && rapid-mlx serve qwen3.5-9b`)
+→ Install [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) (`pip install vllm-mlx && rapid-mlx serve qwen3.5-9b`)
 
 **"I want to fine-tune a model on my Mac"**
 → Use [mlx-tune](https://github.com/ARahim3/mlx-tune) (SFT, DPO, GRPO) or Apple's built-in [mlx-lm](https://github.com/ml-explore/mlx-lm) LoRA
@@ -30,7 +26,7 @@ MLX is Apple's open-source ML framework built specifically for Apple Silicon's u
 **"I'm building a Swift/iOS app with on-device AI"**
 → Start with [mlx-swift-lm](https://github.com/ml-explore/mlx-swift-lm) + [fullmoon-ios](https://github.com/mainframecomputer/fullmoon-ios) as reference
 
-**Contributing:** PRs welcome! Keep entries sorted by stars (descending). Language legend: 🐍 Python · 🦅 Swift · 🟨 JS/TS · 🦀 Rust · 🐹 Go
+**[Submit your project →](#contributing)** PRs and issues welcome! Language legend: 🐍 Python · 🦅 Swift · 🟨 JS/TS · 🦀 Rust · 🐹 Go
 
 ---
 
@@ -65,18 +61,22 @@ MLX is Apple's open-source ML framework built specifically for Apple Silicon's u
 
 ## Inference & Serving
 
+> **Which one should I use?** Quick guide:
+> - **Just want a GUI app?** → [omlx](https://github.com/jundot/omlx) (menu bar) or [LM Studio](https://lmstudio.ai) (desktop app)
+> - **Need an OpenAI-compatible API?** → [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) (fastest, tool calling) or [mlx-omni-server](https://github.com/madroidmaq/mlx-omni-server)
+> - **Building a Swift/iOS app?** → [swama](https://github.com/Trans-N-ai/swama) or [PicoMLXServer](https://github.com/PicoMLX/PicoMLXServer)
+
 - 🐍 [omlx](https://github.com/jundot/omlx) — LLM inference server with continuous batching & SSD caching, runs from macOS menu bar. ![](https://img.shields.io/github/stars/jundot/omlx?style=flat-square)
 - 🐍 [lmstudio mlx-engine](https://github.com/lmstudio-ai/mlx-engine) — LM Studio's Apple MLX engine. ![](https://img.shields.io/github/stars/lmstudio-ai/mlx-engine?style=flat-square)
 - 🐍 [mlx-omni-server](https://github.com/madroidmaq/mlx-omni-server) — Local inference server with OpenAI-compatible API for Apple Silicon. ![](https://img.shields.io/github/stars/madroidmaq/mlx-omni-server?style=flat-square)
-- 🐍 [vllm-mlx](https://github.com/waybarrios/vllm-mlx) — OpenAI/Anthropic-compatible server. Continuous batching, MCP tool calling, multimodal. ![](https://img.shields.io/github/stars/waybarrios/vllm-mlx?style=flat-square)
 - 🦅 [swama](https://github.com/Trans-N-ai/swama) — High-performance MLX inference engine for macOS with native Swift. ![](https://img.shields.io/github/stars/Trans-N-ai/swama?style=flat-square)
 - 🐍 [mlx-llm](https://github.com/riccardomusmeci/mlx-llm) — LLM applications and tools running on Apple Silicon in real-time. ![](https://img.shields.io/github/stars/riccardomusmeci/mlx-llm?style=flat-square)
 - 🐍 [fastmlx](https://github.com/arcee-ai/fastmlx) — High-performance production-ready API to host MLX models. ![](https://img.shields.io/github/stars/arcee-ai/fastmlx?style=flat-square)
 - 🦅 [PicoMLXServer](https://github.com/PicoMLX/PicoMLXServer) — The easiest way to run MLX-based LLMs locally. ![](https://img.shields.io/github/stars/PicoMLX/PicoMLXServer?style=flat-square)
 - 🐍 [mlx-openai-server](https://github.com/cubist38/mlx-openai-server) — OpenAI-compatible endpoints for MLX models. ![](https://img.shields.io/github/stars/cubist38/mlx-openai-server?style=flat-square)
 - 🦅 [maclocal-api](https://github.com/scouzi1966/maclocal-api) — macOS server exposing Apple Foundation and MLX Models through unified OpenAI-compatible API. ![](https://img.shields.io/github/stars/scouzi1966/maclocal-api?style=flat-square)
-- 🐍 [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) — Fast local AI engine for Apple Silicon. 4.2x faster than Ollama, tool calling, prompt caching. OpenAI-compatible. ![](https://img.shields.io/github/stars/raullenchai/Rapid-MLX?style=flat-square)
 - 🐍 [Toolio](https://github.com/OoriData/Toolio) — GenAI & agent toolkit for Apple Silicon, JSON schema-steered structured output and tool-calling. ![](https://img.shields.io/github/stars/OoriData/Toolio?style=flat-square)
+- 🐍 [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) — Fast local AI engine for Apple Silicon. 4.2x faster than Ollama, tool calling, prompt caching. OpenAI-compatible. ![](https://img.shields.io/github/stars/raullenchai/Rapid-MLX?style=flat-square)
 
 ## Training & Fine-tuning
 
@@ -108,7 +108,7 @@ MLX is Apple's open-source ML framework built specifically for Apple Silicon's u
 - 🐍 [mflux](https://github.com/filipstrand/mflux) — MLX native Flux and Stable Diffusion image generation. ![](https://img.shields.io/github/stars/filipstrand/mflux?style=flat-square)
 - 🐍 [mlx-video](https://github.com/Blaizzy/mlx-video) — Image-Video-Audio generation models on Mac. ![](https://img.shields.io/github/stars/Blaizzy/mlx-video?style=flat-square)
 - 🦅 [flux.swift](https://github.com/mzbac/flux.swift) — Swift implementation of Flux.1 using mlx-swift. ![](https://img.shields.io/github/stars/mzbac/flux.swift?style=flat-square)
-- [mlxstudio](https://github.com/jjang-ai/mlxstudio) — MLX Studio — Image Gen/Edit + Chat/Code all in one. ![](https://img.shields.io/github/stars/jjang-ai/mlxstudio?style=flat-square)
+- 🐍 [mlxstudio](https://github.com/jjang-ai/mlxstudio) — MLX Studio — Image Gen/Edit + Chat/Code all in one. ![](https://img.shields.io/github/stars/jjang-ai/mlxstudio?style=flat-square)
 
 ## Vision & Multimodal
 
@@ -125,7 +125,7 @@ MLX is Apple's open-source ML framework built specifically for Apple Silicon's u
 
 ## Swift Ecosystem
 
-Native macOS/iOS apps built on MLX.
+Native macOS/iOS apps and packages built on MLX. See also: [mlx-swift](https://github.com/ml-explore/mlx-swift) in Core, [swama](https://github.com/Trans-N-ai/swama) in Inference, [mlx-audio-swift](https://github.com/Blaizzy/mlx-audio-swift) in Audio. Getting started? Read [On-device ML research with MLX and Swift](https://www.swift.org/blog/mlx-swift/).
 
 - 🦅 [osaurus](https://github.com/osaurus-ai/osaurus) — Native macOS AI agent — any model, persistent memory, autonomous execution. ![](https://img.shields.io/github/stars/osaurus-ai/osaurus?style=flat-square)
 - 🦅 [Klee](https://github.com/signerlabs/Klee) — Native macOS AI chat, 100% local inference. ![](https://img.shields.io/github/stars/signerlabs/Klee?style=flat-square)
@@ -137,7 +137,7 @@ Native macOS/iOS apps built on MLX.
 
 ## Benchmarks
 
-- [Metal-Puzzles](https://github.com/abeleinin/Metal-Puzzles) — Solve puzzles. Learn Metal GPU programming. ![](https://img.shields.io/github/stars/abeleinin/Metal-Puzzles?style=flat-square)
+- 🦅 [Metal-Puzzles](https://github.com/abeleinin/Metal-Puzzles) — Solve puzzles. Learn Metal GPU programming. ![](https://img.shields.io/github/stars/abeleinin/Metal-Puzzles?style=flat-square)
 - 🐍 [mlx-benchmark](https://github.com/TristanBilot/mlx-benchmark) — Benchmark MLX ops on all Apple Silicon chips (GPU, CPU) + MPS and CUDA. ![](https://img.shields.io/github/stars/TristanBilot/mlx-benchmark?style=flat-square)
 - 🐍 [mlx-bitnet](https://github.com/exo-explore/mlx-bitnet) — 1.58 Bit LLM on Apple Silicon. ![](https://img.shields.io/github/stars/exo-explore/mlx-bitnet?style=flat-square)
 
@@ -145,7 +145,7 @@ Native macOS/iOS apps built on MLX.
 
 - 🐍 [chat-with-mlx](https://github.com/qnguyen3/chat-with-mlx) — All-in-one LLMs Chat UI for Apple Silicon. ![](https://img.shields.io/github/stars/qnguyen3/chat-with-mlx?style=flat-square)
 - 🐍 [cross-market-state-fusion](https://github.com/humanplane/cross-market-state-fusion) — RL agent fusing Binance futures into Polymarket. On-device training with MLX. ![](https://img.shields.io/github/stars/humanplane/cross-market-state-fusion?style=flat-square)
-- [NotebookMLX](https://github.com/johnmai-dev/NotebookMLX) — Open source NotebookLM. ![](https://img.shields.io/github/stars/johnmai-dev/NotebookMLX?style=flat-square)
+- 🦅 [NotebookMLX](https://github.com/johnmai-dev/NotebookMLX) — Open source NotebookLM. ![](https://img.shields.io/github/stars/johnmai-dev/NotebookMLX?style=flat-square)
 - 🟨 [nodetool](https://github.com/nodetool-ai/nodetool) — Visual builder for AI Workflows and Agents. ![](https://img.shields.io/github/stars/nodetool-ai/nodetool?style=flat-square)
 - 🐍 [Vim-LM](https://github.com/JosefAlbers/Vim-LM) — AI Copilot for Vim/NeoVim. ![](https://img.shields.io/github/stars/JosefAlbers/Vim-LM?style=flat-square)
 - 🐍 [mlx-ui](https://github.com/da-z/mlx-ui) — Simple web UI for MLX using Streamlit. ![](https://img.shields.io/github/stars/da-z/mlx-ui?style=flat-square)
@@ -160,9 +160,19 @@ Native macOS/iOS apps built on MLX.
 
 ## Models
 
+**Where to find models:**
 - [mlx-community on HuggingFace](https://huggingface.co/mlx-community) — 2000+ MLX-optimized models ready to use
-- [Using MLX at Hugging Face](https://huggingface.co/docs/hub/en/mlx) — Official HuggingFace MLX docs
 - [lmstudio-community on HuggingFace](https://huggingface.co/lmstudio-community) — LM Studio's curated MLX models
+- [Using MLX at Hugging Face](https://huggingface.co/docs/hub/en/mlx) — Official HuggingFace MLX docs
+
+**Which model for my Mac?**
+
+| RAM | Recommended models | Notes |
+|-----|-------------------|-------|
+| 8GB | Qwen3.5-4B-4bit, Phi-4-mini-4bit | Small but capable |
+| 16GB | Qwen3.5-9B-4bit, Gemma-3-12B-4bit | Great balance |
+| 32GB | Qwen3.5-27B-4bit, Devstral-24B-4bit | Strong coding + reasoning |
+| 64GB+ | Qwen3.5-122B-A10B-4bit, Llama-4-Scout | Near-frontier quality |
 
 ## Learning Resources
 
@@ -175,12 +185,19 @@ Native macOS/iOS apps built on MLX.
 
 ## Contributing
 
-Contributions welcome! Please:
-1. Sort entries by stars (descending) within each section
-2. One-line description per entry
-3. Projects with 50+ stars or notable technical merit
-4. Use language emoji: 🐍 Python · 🦅 Swift · 🟨 JS/TS · 🦀 Rust · 🐹 Go
-5. Format: `- 🐍 [name](url) — Description. ![stars badge]`
+Built something with MLX? We want to list it!
+
+**Easiest way:** [Open an issue](https://github.com/raullenchai/awesome-mlx/issues/new?template=submit_project.yml) with your project name, URL, and a one-line description. We'll add it for you.
+
+**PR way:** Add your project to the right category using this format:
+```
+- 🐍 [name](url) — One-line description. ![](https://img.shields.io/github/stars/OWNER/REPO?style=flat-square)
+```
+
+Guidelines:
+- Language emoji: 🐍 Python · 🦅 Swift · 🟨 JS/TS · 🦀 Rust · 🐹 Go
+- Sort entries by stars (descending) within each section
+- All MLX projects welcome — no minimum star count
 
 ## License
 

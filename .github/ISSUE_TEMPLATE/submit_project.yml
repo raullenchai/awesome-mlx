@@ -1,0 +1,59 @@
+name: Submit a Project
+description: Add your MLX project to the list
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing your MLX project! Fill in the details below and we'll add it to the list.
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      placeholder: "e.g., my-mlx-tool"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: GitHub URL
+      placeholder: "https://github.com/owner/repo"
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: One-line description
+      placeholder: "e.g., Fast text-to-speech engine for Apple Silicon"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Inference & Serving
+        - Training & Fine-tuning
+        - Audio & Speech
+        - Image & Video Generation
+        - Vision & Multimodal
+        - Embeddings & RAG
+        - Swift Ecosystem
+        - Apps & Demos
+        - Benchmarks
+        - Other Tools
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Primary language
+      options:
+        - Python
+        - Swift
+        - JavaScript/TypeScript
+        - Rust
+        - Go
+        - Other
+    validations:
+      required: true
