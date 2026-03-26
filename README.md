@@ -230,6 +230,11 @@ Built something with MLX? We want to list it!
 - 🐍 [name](url) — One-line description. ![](https://img.shields.io/github/stars/OWNER/REPO?style=flat-square)
 ```
 
+**Add a badge to your README** (optional):
+```markdown
+[![Awesome MLX](https://img.shields.io/badge/Awesome-MLX-blue?style=flat-square)](https://github.com/raullenchai/awesome-mlx)
+```
+
 Guidelines:
 - Language emoji: 🐍 Python · 🦅 Swift · 🟨 JS/TS · 🦀 Rust · 🐹 Go
 - Sort entries by stars (descending) within each section
