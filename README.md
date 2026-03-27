@@ -62,7 +62,6 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 - 🦀 [mlx-rs](https://github.com/oxiglade/mlx-rs) — Unofficial Rust bindings to Apple's MLX framework. ![](https://img.shields.io/github/stars/oxiglade/mlx-rs?style=flat-square)
 - 🐍 [mlx-graphs](https://github.com/mlx-graphs/mlx-graphs) — Graph Neural Network library for Apple Silicon. ![](https://img.shields.io/github/stars/mlx-graphs/mlx-graphs?style=flat-square)
 - [emlx](https://github.com/elixir-nx/emlx) — MLX backend for Elixir Nx. ![](https://img.shields.io/github/stars/elixir-nx/emlx?style=flat-square)
-- [ocaml-mlx](https://github.com/ocaml-mlx/mlx) — OCaml bindings for MLX with JSX syntax. ![](https://img.shields.io/github/stars/ocaml-mlx/mlx?style=flat-square)
 
 ## Inference & Serving
 
