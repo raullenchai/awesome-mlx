@@ -21,7 +21,7 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 → Install [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) (`pip install vllm-mlx && rapid-mlx serve qwen3.5-9b`)
 
 **"I want to fine-tune a model on my Mac"**
-→ Use [mlx-tune](https://github.com/ARahim3/mlx-tune) (SFT, DPO, GRPO) or Apple's built-in [mlx-lm](https://github.com/ml-explore/mlx-lm) LoRA
+→ Use [unsloth-buddy](https://github.com/TYH-labs/unsloth-buddy), [mlx-tune](https://github.com/ARahim3/mlx-tune) (SFT, DPO, GRPO) or Apple's built-in [mlx-lm](https://github.com/ml-explore/mlx-lm) LoRA
 
 **"I'm building a Swift/iOS app with on-device AI"**
 → Start with [mlx-swift-lm](https://github.com/ml-explore/mlx-swift-lm) + [fullmoon-ios](https://github.com/mainframecomputer/fullmoon-ios) as reference
