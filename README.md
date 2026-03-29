@@ -21,7 +21,7 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 → Install [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) (`pip install vllm-mlx && rapid-mlx serve qwen3.5-9b`)
 
 **"I want to fine-tune a model on my Mac"**
-→ Use [mlx-tune](https://github.com/ARahim3/mlx-tune) (SFT, DPO, GRPO) or Apple's built-in [mlx-lm](https://github.com/ml-explore/mlx-lm) LoRA
+→ Use [unsloth-buddy](https://github.com/TYH-labs/unsloth-buddy) (agent skill for end-to-end vibe fine-tuning), [mlx-tune](https://github.com/ARahim3/mlx-tune) (SFT, DPO, GRPO) or Apple's built-in [mlx-lm](https://github.com/ml-explore/mlx-lm) LoRA
 
 **"I'm building a Swift/iOS app with on-device AI"**
 → Start with [mlx-swift-lm](https://github.com/ml-explore/mlx-swift-lm) + [fullmoon-ios](https://github.com/mainframecomputer/fullmoon-ios) as reference
@@ -100,7 +100,7 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 - 🐍 [mlx-gpt2](https://github.com/pranavjad/mlx-gpt2) — GPT-2 from scratch in MLX. Educational. ![](https://img.shields.io/github/stars/pranavjad/mlx-gpt2?style=flat-square)
 - 🐍 [rlx](https://github.com/noahfarr/rlx) — Reinforcement learning framework based on MLX. ![](https://img.shields.io/github/stars/noahfarr/rlx?style=flat-square)
 - 🐍 [Vodalus-Expert-LLM-Forge](https://github.com/severian42/Vodalus-Expert-LLM-Forge) — Dataset crafting with RAG + fine-tuning using MLX and Unsloth. ![](https://img.shields.io/github/stars/severian42/Vodalus-Expert-LLM-Forge?style=flat-square)
-- 🐍 [unsloth-buddy](https://github.com/TYH-labs/unsloth-buddy) — Zero-friction LLM fine-tuning for agents; MLX on Apple Silicon. ![](https://img.shields.io/github/stars/TYH-labs/unsloth-buddy?style=flat-square)
+- 🐍 [unsloth-buddy](https://github.com/TYH-labs/unsloth-buddy) — Agent skill to facilitate end-to-end vibe fine-tuning; MLX on Apple Silicon. ![](https://img.shields.io/github/stars/TYH-labs/unsloth-buddy?style=flat-square)
 - 🦀 [pmetal](https://github.com/Epistates/pmetal) — High performance LLM fine-tuning framework for Apple Silicon, written in Rust. ![](https://img.shields.io/github/stars/Epistates/pmetal?style=flat-square)
 
 ## Audio & Speech
