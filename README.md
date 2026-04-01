@@ -44,6 +44,8 @@ An awesome list dedicated to the [MLX library](https://github.com/ml-explore/mlx
 - [mlx-omni-server](https://github.com/madroidmaq/mlx-omni-server): MLX Omni Server is a local inference server powered by Apple's MLX framework, specifically designed for Apple Silicon (M-series) chips. It implements OpenAI-compatible API endpoints, enabling seamless integration with existing OpenAI SDK clients while leveraging the power of local ML inference.
 - [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX): OpenAI-compatible LLM inference server for Apple Silicon. 2-4x faster than Ollama with full tool calling, reasoning separation, and prompt caching.
 
+- [docker_mlx_cpp](https://github.com/RobotFlow-Labs/docker_mlx_cpp) - The NVIDIA Container Toolkit for Mac. Give any Docker container full Metal GPU access. 107+ GPU operations via MLX.
+
 ## Demo
 
 - [flux-generator](https://github.com/voipnuggets/flux-generator): Flux Generatoe is a high-performance macOS web application that enabled local image generation using Blackforest Flux models (Schnell/Dev) and Stable Diffusion (sdxl-turbo/stable-diffusion-2-1) and musci generation using facebook/musicgen. It also provides an API for image generation compatable with third party applications like open-webui.
