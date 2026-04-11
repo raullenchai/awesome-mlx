@@ -86,6 +86,10 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 - 🐍 [mlx_sharding](https://github.com/mzbac/mlx_sharding) — Distributed inference for MLX LLMs across multiple devices. ![](https://img.shields.io/github/stars/mzbac/mlx_sharding?style=flat-square)
 - 🐍 [llamactl](https://github.com/lordmathis/llamactl) — Unified management and routing for llama.cpp, MLX and vLLM models. ![](https://img.shields.io/github/stars/lordmathis/llamactl?style=flat-square)
 - 🐍 [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) — Fast local AI engine for Apple Silicon. 4.2x faster than Ollama, tool calling, prompt caching. OpenAI-compatible. ![](https://img.shields.io/github/stars/raullenchai/Rapid-MLX?style=flat-square)
+- 🦅 [SwiftLM](https://github.com/SharpAI/SwiftLM) — Native MLX Swift inference server. OpenAI-compatible API, SSD streaming for 100B+ MoE, TurboQuant KV compression, iOS app. ![](https://img.shields.io/github/stars/SharpAI/SwiftLM?style=flat-square)
+- 🐍 [mlx-llm-server](https://github.com/mzbac/mlx-llm-server) — MLX LLM inference and serving server with OpenAI-compatible API. ![](https://img.shields.io/github/stars/mzbac/mlx-llm-server?style=flat-square)
+- 🐍 [TurboQuant-MLX](https://github.com/alicankiraz1/Qwen3.5-TurboQuant-MLX-LM) — TurboMLX KV cache compression experiments for Qwen3.5 on MLX. ![](https://img.shields.io/github/stars/alicankiraz1/Qwen3.5-TurboQuant-MLX-LM?style=flat-square)
+- 🐍 [strands-mlx](https://github.com/cagataycali/strands-mlx) — MLX model provider for AWS Strands Agents — build AI agents on Apple Silicon. ![](https://img.shields.io/github/stars/cagataycali/strands-mlx?style=flat-square)
 
 ## Training & Fine-tuning
 
@@ -102,6 +106,8 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 - 🐍 [Vodalus-Expert-LLM-Forge](https://github.com/severian42/Vodalus-Expert-LLM-Forge) — Dataset crafting with RAG + fine-tuning using MLX and Unsloth. ![](https://img.shields.io/github/stars/severian42/Vodalus-Expert-LLM-Forge?style=flat-square)
 - 🐍 [unsloth-buddy](https://github.com/TYH-labs/unsloth-buddy) — Agent skill to facilitate end-to-end vibe fine-tuning; MLX on Apple Silicon. ![](https://img.shields.io/github/stars/TYH-labs/unsloth-buddy?style=flat-square)
 - 🦀 [pmetal](https://github.com/Epistates/pmetal) — High performance LLM fine-tuning framework for Apple Silicon, written in Rust. ![](https://img.shields.io/github/stars/Epistates/pmetal?style=flat-square)
+- 🐍 [Tiny-Lab](https://github.com/trevin-creator/Tiny-Lab) — Apple Silicon ML research tool with control plane, MLX training path, and checkpoint evaluation. ![](https://img.shields.io/github/stars/trevin-creator/Tiny-Lab?style=flat-square)
+- 🦅 [mlx-lm-gui](https://github.com/stevenatkin/mlx-lm-gui) — Native macOS GUI for mlx-lm-lora fine-tuning. ![](https://img.shields.io/github/stars/stevenatkin/mlx-lm-gui?style=flat-square)
 
 ## Audio & Speech
 
@@ -121,6 +127,7 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 - 🦅 [kokoro-ios](https://github.com/mlalma/kokoro-ios) — Kokoro TTS for iOS and macOS via MLX. ![](https://img.shields.io/github/stars/mlalma/kokoro-ios?style=flat-square)
 - 🐍 [whisply](https://github.com/tsmdt/whisply) — Fast CLI/GUI for batch transcription and translation. ![](https://img.shields.io/github/stars/tsmdt/whisply?style=flat-square)
 - 🐍 [nanospeech](https://github.com/lucasnewman/nanospeech) — Simple, hackable TTS in PyTorch and MLX. ![](https://img.shields.io/github/stars/lucasnewman/nanospeech?style=flat-square)
+- 🐍 [hermes](https://github.com/unclecode/hermes) — Blazing-fast video transcription — MLX Whisper, Groq, or OpenAI backends. ![](https://img.shields.io/github/stars/unclecode/hermes?style=flat-square)
 
 ## Image & Video Generation
 
@@ -162,6 +169,8 @@ Native macOS/iOS apps and packages built on MLX. See also: [mlx-swift](https://g
 - 🦅 [MLX-Outil](https://github.com/rudrankriyam/MLX-Outil) — Tool calling using MLX Swift across iOS, macOS, and visionOS. ![](https://img.shields.io/github/stars/rudrankriyam/MLX-Outil?style=flat-square)
 - 🦅 [mlx-swift-audio](https://github.com/DePasqualeOrg/mlx-swift-audio) — Swift tools for TTS and STT powered by MLX. ![](https://img.shields.io/github/stars/DePasqualeOrg/mlx-swift-audio?style=flat-square)
 - 🦅 [f5-tts-swift](https://github.com/lucasnewman/f5-tts-swift) — F5-TTS implementation in Swift using MLX. ![](https://img.shields.io/github/stars/lucasnewman/f5-tts-swift?style=flat-square)
+- 🦅 [mlx-swift-structured](https://github.com/petrukha-ivan/mlx-swift-structured) — Structured output generation in Swift with MLX. ![](https://img.shields.io/github/stars/petrukha-ivan/mlx-swift-structured?style=flat-square)
+- 🦅 [Glosik](https://github.com/rudrankriyam/Glosik) — F5-TTS using MLX Swift. ![](https://img.shields.io/github/stars/rudrankriyam/Glosik?style=flat-square)
 
 ## Benchmarks
 
@@ -184,6 +193,8 @@ Native macOS/iOS apps and packages built on MLX. See also: [mlx-swift](https://g
 - 🦅 [AirPosture](https://github.com/allenv0/AirPosture) — AirPods as AI posture coach on iOS, powered by MLX. ![](https://img.shields.io/github/stars/allenv0/AirPosture?style=flat-square)
 - 🐍 [nanoGPT_mlx](https://github.com/vithursant/nanoGPT_mlx) — Karpathy's nanoGPT on Apple MLX. ![](https://img.shields.io/github/stars/vithursant/nanoGPT_mlx?style=flat-square)
 - 🐍 [m-courtyard](https://github.com/Mcourtyard/m-courtyard) — Local AI model fine-tuning assistant, zero-code. ![](https://img.shields.io/github/stars/Mcourtyard/m-courtyard?style=flat-square)
+- 🐍 [parlor](https://github.com/fikrikarim/parlor) — On-device real-time multimodal AI — natural voice + vision conversations powered by Gemma 4 and Kokoro. ![](https://img.shields.io/github/stars/fikrikarim/parlor?style=flat-square)
+- 🐍 [mlx-chat-ui](https://github.com/mzbac/mlx-chat-ui) — HuggingFace chat-ui integration with mlx-lm server. ![](https://img.shields.io/github/stars/mzbac/mlx-chat-ui?style=flat-square)
 
 ## Other Tools
 
@@ -192,6 +203,7 @@ Native macOS/iOS apps and packages built on MLX. See also: [mlx-swift](https://g
 - 🐍 [outlinesmlx](https://github.com/sacha-ichbiah/outlines-mlx) — Guided generation on Apple Silicon using Outlines + MLX. ![](https://img.shields.io/github/stars/sacha-ichbiah/outlines-mlx?style=flat-square)
 - 🐍 [olla](https://github.com/thushan/olla) — Lightweight proxy/load balancer for LLM infra (llama.cpp, MLX, vLLM). ![](https://img.shields.io/github/stars/thushan/olla?style=flat-square)
 - 🐍 [anubis-oss](https://github.com/uncSoft/anubis-oss) — Local LLM testing and benchmarking for Apple Silicon. ![](https://img.shields.io/github/stars/uncSoft/anubis-oss?style=flat-square)
+- 🐍 [lmstudio_hf](https://github.com/ivanfioravanti/lmstudio_hf) — CLI to manage MLX models between HuggingFace cache and LM Studio. ![](https://img.shields.io/github/stars/ivanfioravanti/lmstudio_hf?style=flat-square)
 
 ## Models
 
