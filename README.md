@@ -195,6 +195,7 @@ Native macOS/iOS apps and packages built on MLX. See also: [mlx-swift](https://g
 - 🐍 [m-courtyard](https://github.com/Mcourtyard/m-courtyard) — Local AI model fine-tuning assistant, zero-code. ![](https://img.shields.io/github/stars/Mcourtyard/m-courtyard?style=flat-square)
 - 🐍 [parlor](https://github.com/fikrikarim/parlor) — On-device real-time multimodal AI — natural voice + vision conversations powered by Gemma 4 and Kokoro. ![](https://img.shields.io/github/stars/fikrikarim/parlor?style=flat-square)
 - 🐍 [mlx-chat-ui](https://github.com/mzbac/mlx-chat-ui) — HuggingFace chat-ui integration with mlx-lm server. ![](https://img.shields.io/github/stars/mzbac/mlx-chat-ui?style=flat-square)
+- 🟨 [Off Grid AI Desktop](https://github.com/off-grid-ai/off-grid-ai-desktop) — Offline AI suite for macOS with local chat, on-device image generation via MLX/mflux, transcription, and memory search. ![](https://img.shields.io/github/stars/off-grid-ai/off-grid-ai-desktop?style=flat-square)
 
 ## Other Tools
 
