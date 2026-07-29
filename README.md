@@ -128,6 +128,7 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 - 🐍 [whisply](https://github.com/tsmdt/whisply) — Fast CLI/GUI for batch transcription and translation. ![](https://img.shields.io/github/stars/tsmdt/whisply?style=flat-square)
 - 🐍 [nanospeech](https://github.com/lucasnewman/nanospeech) — Simple, hackable TTS in PyTorch and MLX. ![](https://img.shields.io/github/stars/lucasnewman/nanospeech?style=flat-square)
 - 🐍 [hermes](https://github.com/unclecode/hermes) — Blazing-fast video transcription — MLX Whisper, Groq, or OpenAI backends. ![](https://img.shields.io/github/stars/unclecode/hermes?style=flat-square)
+- 🐍 [qwen-scribe](https://github.com/VladUZH/qwen-scribe) — Private local transcription and system-wide dictation on Apple Silicon with Qwen3-ASR. ![](https://img.shields.io/github/stars/VladUZH/qwen-scribe?style=flat-square)
 
 ## Image & Video Generation
 
