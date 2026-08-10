@@ -131,7 +131,7 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 
 ## Image & Video Generation
 
-- 🐍 [mflux](https://github.com/filipstrand/mflux) — MLX native Flux and Stable Diffusion image generation. ![](https://img.shields.io/github/stars/filipstrand/mflux?style=flat-square)
+- 🐍 [mflux](https://github.com/mflux-community/mflux) — MLX native implementations of state-of-the-art generative image & video models. ![](https://img.shields.io/github/stars/filipstrand/mflux?style=flat-square)
 - 🐍 [mlx-video](https://github.com/Blaizzy/mlx-video) — Image-Video-Audio generation models on Mac. ![](https://img.shields.io/github/stars/Blaizzy/mlx-video?style=flat-square)
 - 🦅 [flux.swift](https://github.com/mzbac/flux.swift) — Swift implementation of Flux.1 using mlx-swift. ![](https://img.shields.io/github/stars/mzbac/flux.swift?style=flat-square)
 - 🐍 [mlxstudio](https://github.com/jjang-ai/mlxstudio) — MLX Studio — Image Gen/Edit + Chat/Code all in one. ![](https://img.shields.io/github/stars/jjang-ai/mlxstudio?style=flat-square)
