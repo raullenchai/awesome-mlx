@@ -145,6 +145,8 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 - 🐍 [pvm](https://github.com/JosefAlbers/pvm) — Phi-3.5 Vision and Language Models for Mac. ![](https://img.shields.io/github/stars/JosefAlbers/pvm?style=flat-square)
 - 🐍 [photo-similarity-search](https://github.com/harperreed/photo-similarity-search) — CLIP-based photo similarity for Apple Silicon. ![](https://img.shields.io/github/stars/harperreed/photo-similarity-search?style=flat-square)
 
+- 🐍 [mlx-smolvla](https://github.com/daniiarabdiev/mlx-smolvla) — MLX-native SmolVLA runtime: inference, LeRobot-protocol serving, preview LoRA training, PyTorch parity gates. ![](https://img.shields.io/github/stars/daniiarabdiev/mlx-smolvla?style=flat-square)
+
 ## Embeddings & RAG
 
 - 🐍 [mlx-embeddings](https://github.com/Blaizzy/mlx-embeddings) — Vision and Language Embedding models locally on Mac. ![](https://img.shields.io/github/stars/Blaizzy/mlx-embeddings?style=flat-square)
