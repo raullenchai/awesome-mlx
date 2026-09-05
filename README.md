@@ -108,6 +108,7 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 - 🦀 [pmetal](https://github.com/Epistates/pmetal) — High performance LLM fine-tuning framework for Apple Silicon, written in Rust. ![](https://img.shields.io/github/stars/Epistates/pmetal?style=flat-square)
 - 🐍 [Tiny-Lab](https://github.com/trevin-creator/Tiny-Lab) — Apple Silicon ML research tool with control plane, MLX training path, and checkpoint evaluation. ![](https://img.shields.io/github/stars/trevin-creator/Tiny-Lab?style=flat-square)
 - 🦅 [mlx-lm-gui](https://github.com/stevenatkin/mlx-lm-gui) — Native macOS GUI for mlx-lm-lora fine-tuning. ![](https://img.shields.io/github/stars/stevenatkin/mlx-lm-gui?style=flat-square)
+- 🦅 [PostTrainLLM](https://github.com/PostTrainLLM/posttrainllm) — Mac-local specialist-model factory: post-training, eval gates, and packaging with an MLX-Swift CLI and SwiftUI app. ![](https://img.shields.io/github/stars/PostTrainLLM/posttrainllm?style=flat-square)
 
 ## Audio & Speech
 
