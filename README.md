@@ -18,7 +18,7 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 → Install [Klee](https://github.com/signerlabs/Klee) (native app, one click) or [chat-with-mlx](https://github.com/qnguyen3/chat-with-mlx) (web UI)
 
 **"I want an OpenAI-compatible local API server"**
-→ Install [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) (`pip install vllm-mlx && rapid-mlx serve qwen3.5-9b`)
+→ Install [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) (`brew install rapid-mlx && rapid-mlx serve qwen3.5-4b-4bit`)
 
 **"I want to fine-tune a model on my Mac"**
 → Use [unsloth-buddy](https://github.com/TYH-labs/unsloth-buddy) (agent skill for end-to-end vibe fine-tuning), [mlx-tune](https://github.com/ARahim3/mlx-tune) (SFT, DPO, GRPO) or Apple's built-in [mlx-lm](https://github.com/ml-explore/mlx-lm) LoRA
@@ -67,7 +67,7 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 
 > **Which one should I use?** Quick guide:
 > - **Just want a GUI app?** → [omlx](https://github.com/jundot/omlx) (menu bar) or [LM Studio](https://lmstudio.ai) (desktop app)
-> - **Need an OpenAI-compatible API?** → [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) (fastest, tool calling) or [mlx-omni-server](https://github.com/madroidmaq/mlx-omni-server)
+> - **Need an OpenAI-compatible API?** → [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) (OpenAI + Anthropic API, tool calling for coding agents) or [mlx-omni-server](https://github.com/madroidmaq/mlx-omni-server)
 > - **Building a Swift/iOS app?** → [swama](https://github.com/Trans-N-ai/swama) or [PicoMLXServer](https://github.com/PicoMLX/PicoMLXServer)
 
 - 🐍 [omlx](https://github.com/jundot/omlx) — LLM inference server with continuous batching & SSD caching, runs from macOS menu bar. ![](https://img.shields.io/github/stars/jundot/omlx?style=flat-square)
@@ -85,7 +85,7 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 - 🐍 [Toolio](https://github.com/OoriData/Toolio) — GenAI & agent toolkit for Apple Silicon, JSON schema-steered structured output and tool-calling. ![](https://img.shields.io/github/stars/OoriData/Toolio?style=flat-square)
 - 🐍 [mlx_sharding](https://github.com/mzbac/mlx_sharding) — Distributed inference for MLX LLMs across multiple devices. ![](https://img.shields.io/github/stars/mzbac/mlx_sharding?style=flat-square)
 - 🐍 [llamactl](https://github.com/lordmathis/llamactl) — Unified management and routing for llama.cpp, MLX and vLLM models. ![](https://img.shields.io/github/stars/lordmathis/llamactl?style=flat-square)
-- 🐍 [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) — Fast local AI engine for Apple Silicon. 4.2x faster than Ollama, tool calling, prompt caching. OpenAI-compatible. ![](https://img.shields.io/github/stars/raullenchai/Rapid-MLX?style=flat-square)
+- 🐍 [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) — Open-source OpenAI- and Anthropic-compatible LLM server for Apple Silicon. Up to 4× faster than mlx-lm, same weights. Reliable tool calling for coding agents. ![](https://img.shields.io/github/stars/raullenchai/Rapid-MLX?style=flat-square)
 - 🦅 [SwiftLM](https://github.com/SharpAI/SwiftLM) — Native MLX Swift inference server. OpenAI-compatible API, SSD streaming for 100B+ MoE, TurboQuant KV compression, iOS app. ![](https://img.shields.io/github/stars/SharpAI/SwiftLM?style=flat-square)
 - 🐍 [mlx-llm-server](https://github.com/mzbac/mlx-llm-server) — MLX LLM inference and serving server with OpenAI-compatible API. ![](https://img.shields.io/github/stars/mzbac/mlx-llm-server?style=flat-square)
 - 🐍 [TurboQuant-MLX](https://github.com/alicankiraz1/Qwen3.5-TurboQuant-MLX-LM) — TurboMLX KV cache compression experiments for Qwen3.5 on MLX. ![](https://img.shields.io/github/stars/alicankiraz1/Qwen3.5-TurboQuant-MLX-LM?style=flat-square)
