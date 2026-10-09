@@ -90,6 +90,7 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 - 🐍 [mlx-llm-server](https://github.com/mzbac/mlx-llm-server) — MLX LLM inference and serving server with OpenAI-compatible API. ![](https://img.shields.io/github/stars/mzbac/mlx-llm-server?style=flat-square)
 - 🐍 [TurboQuant-MLX](https://github.com/alicankiraz1/Qwen3.5-TurboQuant-MLX-LM) — TurboMLX KV cache compression experiments for Qwen3.5 on MLX. ![](https://img.shields.io/github/stars/alicankiraz1/Qwen3.5-TurboQuant-MLX-LM?style=flat-square)
 - 🐍 [strands-mlx](https://github.com/cagataycali/strands-mlx) — MLX model provider for AWS Strands Agents — build AI agents on Apple Silicon. ![](https://img.shields.io/github/stars/cagataycali/strands-mlx?style=flat-square)
+- 🦀 [Higgs](https://github.com/panbanda/higgs) — Rust inference server for Apple Silicon: MLX models behind OpenAI and Anthropic APIs, routing to remote providers, desktop dashboard. ![](https://img.shields.io/github/stars/panbanda/higgs?style=flat-square)
 
 ## Training & Fine-tuning
 
