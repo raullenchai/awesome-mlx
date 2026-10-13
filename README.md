@@ -108,6 +108,7 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 - 🦀 [pmetal](https://github.com/Epistates/pmetal) — High performance LLM fine-tuning framework for Apple Silicon, written in Rust. ![](https://img.shields.io/github/stars/Epistates/pmetal?style=flat-square)
 - 🐍 [Tiny-Lab](https://github.com/trevin-creator/Tiny-Lab) — Apple Silicon ML research tool with control plane, MLX training path, and checkpoint evaluation. ![](https://img.shields.io/github/stars/trevin-creator/Tiny-Lab?style=flat-square)
 - 🦅 [mlx-lm-gui](https://github.com/stevenatkin/mlx-lm-gui) — Native macOS GUI for mlx-lm-lora fine-tuning. ![](https://img.shields.io/github/stars/stevenatkin/mlx-lm-gui?style=flat-square)
+- 🐍 [mlx-train-perf](https://github.com/IonDen/mlx-train-perf) — Fused, logit-free linear cross-entropy loss for fine-tuning, plus a RAM-fit planner and benchmark harness. ![](https://img.shields.io/github/stars/IonDen/mlx-train-perf?style=flat-square)
 
 ## Audio & Speech
 
@@ -137,6 +138,8 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 - 🐍 [mlxstudio](https://github.com/jjang-ai/mlxstudio) — MLX Studio — Image Gen/Edit + Chat/Code all in one. ![](https://img.shields.io/github/stars/jjang-ai/mlxstudio?style=flat-square)
 - 🐍 [MFLUX-WEBUI](https://github.com/CharafChnioune/MFLUX-WEBUI) — Web UI for MFLUX image generation using MLX and FLUX models. ![](https://img.shields.io/github/stars/CharafChnioune/MFLUX-WEBUI?style=flat-square)
 - 🦅 [flux-generator](https://github.com/voipnuggets/flux-generator) — Local image and music generation for Apple Silicon. ![](https://img.shields.io/github/stars/voipnuggets/flux-generator?style=flat-square)
+- 🐍 [mlx-taef](https://github.com/IonDen/mlx-taef) — TAESD/TAEF tiny autoencoders for fast FLUX/SD latent previews and low-memory decode. Drops into mflux. ![](https://img.shields.io/github/stars/IonDen/mlx-taef?style=flat-square)
+- 🐍 [mlx-teacache](https://github.com/IonDen/mlx-teacache) — TeaCache step-skipping to speed up FLUX, Qwen-Image, and Z-Image generation. Drops into mflux. ![](https://img.shields.io/github/stars/IonDen/mlx-teacache?style=flat-square)
 
 ## Vision & Multimodal
 
@@ -204,6 +207,8 @@ Native macOS/iOS apps and packages built on MLX. See also: [mlx-swift](https://g
 - 🐍 [olla](https://github.com/thushan/olla) — Lightweight proxy/load balancer for LLM infra (llama.cpp, MLX, vLLM). ![](https://img.shields.io/github/stars/thushan/olla?style=flat-square)
 - 🐍 [anubis-oss](https://github.com/uncSoft/anubis-oss) — Local LLM testing and benchmarking for Apple Silicon. ![](https://img.shields.io/github/stars/uncSoft/anubis-oss?style=flat-square)
 - 🐍 [lmstudio_hf](https://github.com/ivanfioravanti/lmstudio_hf) — CLI to manage MLX models between HuggingFace cache and LM Studio. ![](https://img.shields.io/github/stars/ivanfioravanti/lmstudio_hf?style=flat-square)
+- 🐍 [mlx-model-doctor](https://github.com/IonDen/mlx-model-doctor) — Validate an MLX / Hugging Face model repo before you load it: config, safetensors, tokenizer, quant metadata. ![](https://img.shields.io/github/stars/IonDen/mlx-model-doctor?style=flat-square)
+- 🐍 [mlx-quant-fidelity](https://github.com/IonDen/mlx-quant-fidelity) — Measure MLX quantization quality loss: KL divergence, perplexity, top-token agreement (weights and KV cache). ![](https://img.shields.io/github/stars/IonDen/mlx-quant-fidelity?style=flat-square)
 
 ## Models
 
