@@ -137,6 +137,8 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 - 🐍 [mlxstudio](https://github.com/jjang-ai/mlxstudio) — MLX Studio — Image Gen/Edit + Chat/Code all in one. ![](https://img.shields.io/github/stars/jjang-ai/mlxstudio?style=flat-square)
 - 🐍 [MFLUX-WEBUI](https://github.com/CharafChnioune/MFLUX-WEBUI) — Web UI for MFLUX image generation using MLX and FLUX models. ![](https://img.shields.io/github/stars/CharafChnioune/MFLUX-WEBUI?style=flat-square)
 - 🦅 [flux-generator](https://github.com/voipnuggets/flux-generator) — Local image and music generation for Apple Silicon. ![](https://img.shields.io/github/stars/voipnuggets/flux-generator?style=flat-square)
+- 🐍 [mlx-taef](https://github.com/IonDen/mlx-taef) — TAESD/TAEF tiny autoencoders for fast latent previews and low-memory FLUX decode. ![](https://img.shields.io/github/stars/IonDen/mlx-taef?style=flat-square)
+- 🐍 [mlx-teacache](https://github.com/IonDen/mlx-teacache) — TeaCache step-skipping wrapper for mflux FLUX models, with per-variant benchmark notes. ![](https://img.shields.io/github/stars/IonDen/mlx-teacache?style=flat-square)
 
 ## Vision & Multimodal
 
