@@ -204,6 +204,7 @@ Native macOS/iOS apps and packages built on MLX. See also: [mlx-swift](https://g
 - 🐍 [olla](https://github.com/thushan/olla) — Lightweight proxy/load balancer for LLM infra (llama.cpp, MLX, vLLM). ![](https://img.shields.io/github/stars/thushan/olla?style=flat-square)
 - 🐍 [anubis-oss](https://github.com/uncSoft/anubis-oss) — Local LLM testing and benchmarking for Apple Silicon. ![](https://img.shields.io/github/stars/uncSoft/anubis-oss?style=flat-square)
 - 🐍 [lmstudio_hf](https://github.com/ivanfioravanti/lmstudio_hf) — CLI to manage MLX models between HuggingFace cache and LM Studio. ![](https://img.shields.io/github/stars/ivanfioravanti/lmstudio_hf?style=flat-square)
+- 🐍 [mlx-sci](https://github.com/akaiHuang/mlx-sci) — Scientific-computing toolkit on Apple Silicon: special functions (Bessel / Airy / gamma / hyp2f1 / Wigner 3j-6j-9j), matrix functions, STFT, and quantum-information primitives (Stochastic Lanczos quantum relative entropy, Petz recovery). `pip install mlx-sci`. ![](https://img.shields.io/github/stars/akaiHuang/mlx-sci?style=flat-square)
 
 ## Models
 
