@@ -204,6 +204,7 @@ Native macOS/iOS apps and packages built on MLX. See also: [mlx-swift](https://g
 - 🐍 [olla](https://github.com/thushan/olla) — Lightweight proxy/load balancer for LLM infra (llama.cpp, MLX, vLLM). ![](https://img.shields.io/github/stars/thushan/olla?style=flat-square)
 - 🐍 [anubis-oss](https://github.com/uncSoft/anubis-oss) — Local LLM testing and benchmarking for Apple Silicon. ![](https://img.shields.io/github/stars/uncSoft/anubis-oss?style=flat-square)
 - 🐍 [lmstudio_hf](https://github.com/ivanfioravanti/lmstudio_hf) — CLI to manage MLX models between HuggingFace cache and LM Studio. ![](https://img.shields.io/github/stars/ivanfioravanti/lmstudio_hf?style=flat-square)
+- 🐍 [MLX Direct Decider](https://github.com/ItsOdeLeo/MLX-Direct-Decider) — Local action selection and semantic routing on Apple Silicon with existing compatible MLX models, without fine-tuning. ![](https://img.shields.io/github/stars/ItsOdeLeo/MLX-Direct-Decider?style=flat-square)
 
 ## Models
 
