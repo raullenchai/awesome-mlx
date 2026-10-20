@@ -171,6 +171,7 @@ Native macOS/iOS apps and packages built on MLX. See also: [mlx-swift](https://g
 - 🦅 [f5-tts-swift](https://github.com/lucasnewman/f5-tts-swift) — F5-TTS implementation in Swift using MLX. ![](https://img.shields.io/github/stars/lucasnewman/f5-tts-swift?style=flat-square)
 - 🦅 [mlx-swift-structured](https://github.com/petrukha-ivan/mlx-swift-structured) — Structured output generation in Swift with MLX. ![](https://img.shields.io/github/stars/petrukha-ivan/mlx-swift-structured?style=flat-square)
 - 🦅 [Glosik](https://github.com/rudrankriyam/Glosik) — F5-TTS using MLX Swift. ![](https://img.shields.io/github/stars/rudrankriyam/Glosik?style=flat-square)
+- 🦅 [MLX Node](https://github.com/MLXapp/mac) — Menu bar app that runs LLM jobs with mlx-swift-lm in a Mac's spare time for MLX Network and earns MLX Tokens (a crypto asset). ![](https://img.shields.io/github/stars/MLXapp/mac?style=flat-square)
 
 ## Benchmarks
 
