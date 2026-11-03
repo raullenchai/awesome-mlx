@@ -108,6 +108,7 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 - 🦀 [pmetal](https://github.com/Epistates/pmetal) — High performance LLM fine-tuning framework for Apple Silicon, written in Rust. ![](https://img.shields.io/github/stars/Epistates/pmetal?style=flat-square)
 - 🐍 [Tiny-Lab](https://github.com/trevin-creator/Tiny-Lab) — Apple Silicon ML research tool with control plane, MLX training path, and checkpoint evaluation. ![](https://img.shields.io/github/stars/trevin-creator/Tiny-Lab?style=flat-square)
 - 🦅 [mlx-lm-gui](https://github.com/stevenatkin/mlx-lm-gui) — Native macOS GUI for mlx-lm-lora fine-tuning. ![](https://img.shields.io/github/stars/stevenatkin/mlx-lm-gui?style=flat-square)
+- 🐍 [Neurolume](https://github.com/Yiteng-CHEN/neurolume) — No-code LoRA fine-tuning app with a live per-layer view: logit lens, per-token confidence and the adapter's ΔW. ![](https://img.shields.io/github/stars/Yiteng-CHEN/neurolume?style=flat-square)
 
 ## Audio & Speech
 
