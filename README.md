@@ -144,6 +144,7 @@ MLX is Apple's open-source ML framework designed for Apple Silicon. If you have 
 - 🐍 [ml-aim](https://github.com/apple/ml-aim) — Apple's AIMv1 and AIMv2 vision models. ![](https://img.shields.io/github/stars/apple/ml-aim?style=flat-square)
 - 🐍 [pvm](https://github.com/JosefAlbers/pvm) — Phi-3.5 Vision and Language Models for Mac. ![](https://img.shields.io/github/stars/JosefAlbers/pvm?style=flat-square)
 - 🐍 [photo-similarity-search](https://github.com/harperreed/photo-similarity-search) — CLIP-based photo similarity for Apple Silicon. ![](https://img.shields.io/github/stars/harperreed/photo-similarity-search?style=flat-square)
+- 🐍 [fastforks](https://github.com/kleinicke/fastforks) — Faster versions of ~600 published computer-vision models (depth, stereo, optical flow, segmentation, detection, classification, backbones) behind one API, with an MLX backend on Apple silicon (currently dynamically converted, moving to hand-written MLX ports). ![](https://img.shields.io/github/stars/kleinicke/fastforks?style=flat-square)
 
 ## Embeddings & RAG
 
